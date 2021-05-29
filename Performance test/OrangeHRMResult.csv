@@ -1,0 +1,307 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+"Saturday May 29, 2021 10:46:40",1151,Login,200,OK,Thread Group 1-1,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,1151,0,171
+"Saturday May 29, 2021 10:46:40",83,Punch in,202,Accepted,Thread Group 1-1,text,FALSE,Test failed: code expected to match /200/,490,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,83,0,0
+"Saturday May 29, 2021 10:46:40",107,Punch out,200,OK,Thread Group 1-1,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,107,0,0
+"Saturday May 29, 2021 10:46:40",357,Login,200,OK,Thread Group 1-1,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,357,0,0
+"Saturday May 29, 2021 10:46:40",104,Punch in,202,Accepted,Thread Group 1-1,text,FALSE,Test failed: code expected to match /200/,490,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,104,0,0
+"Saturday May 29, 2021 10:46:40",82,Punch out,200,OK,Thread Group 1-1,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,82,0,0
+"Saturday May 29, 2021 10:46:40",1064,Login,200,OK,Thread Group 1-2,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,1064,0,83
+"Saturday May 29, 2021 10:46:40",91,Punch in,200,OK,Thread Group 1-2,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,91,0,0
+"Saturday May 29, 2021 10:46:40",100,Punch out,200,OK,Thread Group 1-2,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,100,0,0
+"Saturday May 29, 2021 10:46:40",334,Login,200,OK,Thread Group 1-2,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,334,0,0
+"Saturday May 29, 2021 10:46:40",100,Punch in,200,OK,Thread Group 1-2,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,100,0,0
+"Saturday May 29, 2021 10:46:40",89,Punch out,200,OK,Thread Group 1-2,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,89,0,0
+"Saturday May 29, 2021 10:46:40",1537,Login,200,OK,Thread Group 1-3,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,1537,0,108
+"Saturday May 29, 2021 10:46:40",82,Punch in,200,OK,Thread Group 1-3,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,81,0,0
+"Saturday May 29, 2021 10:46:40",107,Punch out,200,OK,Thread Group 1-3,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,107,0,0
+"Saturday May 29, 2021 10:46:40",384,Login,200,OK,Thread Group 1-3,text,TRUE,,653,333,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,384,0,0
+"Saturday May 29, 2021 10:46:40",89,Punch in,200,OK,Thread Group 1-3,text,TRUE,,446,379,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,89,0,0
+"Saturday May 29, 2021 10:46:40",112,Punch out,200,OK,Thread Group 1-3,text,TRUE,,447,381,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,112,0,0
+"Saturday May 29, 2021 10:46:40",615,Login,200,OK,Thread Group 1-4,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,615,0,195
+"Saturday May 29, 2021 10:46:40",74,Punch in,200,OK,Thread Group 1-4,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,74,0,0
+"Saturday May 29, 2021 10:46:40",70,Punch out,200,OK,Thread Group 1-4,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,70,0,0
+"Saturday May 29, 2021 10:46:40",341,Login,200,OK,Thread Group 1-4,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,341,0,0
+"Saturday May 29, 2021 10:46:40",91,Punch in,200,OK,Thread Group 1-4,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,91,0,0
+"Saturday May 29, 2021 10:46:40",93,Punch out,200,OK,Thread Group 1-4,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,93,0,0
+"Saturday May 29, 2021 10:46:40",1038,Login,200,OK,Thread Group 1-5,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,1038,0,77
+"Saturday May 29, 2021 10:46:40",94,Punch in,200,OK,Thread Group 1-5,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,94,0,0
+"Saturday May 29, 2021 10:46:40",107,Punch out,200,OK,Thread Group 1-5,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,107,0,0
+"Saturday May 29, 2021 10:46:40",347,Login,200,OK,Thread Group 1-5,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,347,0,0
+"Saturday May 29, 2021 10:46:40",86,Punch in,200,OK,Thread Group 1-5,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,86,0,0
+"Saturday May 29, 2021 10:46:40",89,Punch out,200,OK,Thread Group 1-5,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,89,0,0
+"Saturday May 29, 2021 10:46:40",1046,Login,200,OK,Thread Group 1-6,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,1046,0,66
+"Saturday May 29, 2021 10:46:40",597,Punch in,200,OK,Thread Group 1-6,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,597,0,0
+"Saturday May 29, 2021 10:46:40",85,Punch out,200,OK,Thread Group 1-6,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,85,0,0
+"Saturday May 29, 2021 10:46:40",519,Login,200,OK,Thread Group 1-6,text,TRUE,,653,333,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,519,0,0
+"Saturday May 29, 2021 10:46:40",108,Punch in,200,OK,Thread Group 1-6,text,TRUE,,446,379,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,108,0,0
+"Saturday May 29, 2021 10:46:40",86,Punch out,200,OK,Thread Group 1-6,text,TRUE,,447,381,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,86,0,0
+"Saturday May 29, 2021 10:46:40",875,Login,200,OK,Thread Group 1-7,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,875,0,350
+"Saturday May 29, 2021 10:46:40",77,Punch in,200,OK,Thread Group 1-7,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,77,0,0
+"Saturday May 29, 2021 10:46:40",81,Punch out,200,OK,Thread Group 1-7,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,81,0,0
+"Saturday May 29, 2021 10:46:40",369,Login,200,OK,Thread Group 1-7,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,369,0,0
+"Saturday May 29, 2021 10:46:40",99,Punch in,200,OK,Thread Group 1-7,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,99,0,0
+"Saturday May 29, 2021 10:46:40",95,Punch out,200,OK,Thread Group 1-7,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,95,0,0
+"Saturday May 29, 2021 10:46:40",1057,Login,200,OK,Thread Group 1-8,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,1057,0,74
+"Saturday May 29, 2021 10:46:40",91,Punch in,200,OK,Thread Group 1-8,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,91,0,0
+"Saturday May 29, 2021 10:46:40",107,Punch out,200,OK,Thread Group 1-8,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,107,0,0
+"Saturday May 29, 2021 10:46:40",347,Login,200,OK,Thread Group 1-8,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,347,0,0
+"Saturday May 29, 2021 10:46:40",93,Punch in,200,OK,Thread Group 1-8,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,93,0,0
+"Saturday May 29, 2021 10:46:40",84,Punch out,200,OK,Thread Group 1-8,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,84,0,0
+"Saturday May 29, 2021 10:46:40",988,Login,200,OK,Thread Group 1-9,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,988,0,59
+"Saturday May 29, 2021 10:46:40",138,Punch in,200,OK,Thread Group 1-9,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,138,0,0
+"Saturday May 29, 2021 10:46:40",79,Punch out,200,OK,Thread Group 1-9,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,79,0,0
+"Saturday May 29, 2021 10:46:40",572,Login,200,OK,Thread Group 1-9,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,572,0,0
+"Saturday May 29, 2021 10:46:40",117,Punch in,200,OK,Thread Group 1-9,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,117,0,0
+"Saturday May 29, 2021 10:46:40",76,Punch out,200,OK,Thread Group 1-9,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,76,0,0
+"Saturday May 29, 2021 10:46:40",2350,Login,200,OK,Thread Group 1-10,text,TRUE,,654,333,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,2350,0,439
+"Saturday May 29, 2021 10:46:40",127,Punch in,200,OK,Thread Group 1-10,text,TRUE,,446,379,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,127,0,0
+"Saturday May 29, 2021 10:46:40",105,Punch out,200,OK,Thread Group 1-10,text,TRUE,,447,381,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,105,0,0
+"Saturday May 29, 2021 10:46:40",922,Login,200,OK,Thread Group 1-11,text,TRUE,,654,333,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,922,0,62
+"Saturday May 29, 2021 10:46:40",134,Punch in,200,OK,Thread Group 1-11,text,TRUE,,446,379,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,134,0,0
+"Saturday May 29, 2021 10:46:40",467,Login,200,OK,Thread Group 1-10,text,TRUE,,653,333,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,467,0,0
+"Saturday May 29, 2021 10:46:40",99,Punch out,200,OK,Thread Group 1-11,text,TRUE,,447,381,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,99,0,0
+"Saturday May 29, 2021 10:46:40",101,Punch in,200,OK,Thread Group 1-10,text,TRUE,,446,379,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,101,0,0
+"Saturday May 29, 2021 10:46:40",88,Punch out,200,OK,Thread Group 1-10,text,TRUE,,447,381,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,88,0,0
+"Saturday May 29, 2021 10:46:40",368,Login,200,OK,Thread Group 1-11,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,368,0,0
+"Saturday May 29, 2021 10:46:40",92,Punch in,200,OK,Thread Group 1-11,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,92,0,0
+"Saturday May 29, 2021 10:46:40",123,Punch out,200,OK,Thread Group 1-11,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,123,0,0
+"Saturday May 29, 2021 10:46:40",1070,Login,200,OK,Thread Group 1-12,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,1070,0,91
+"Saturday May 29, 2021 10:46:40",110,Punch in,200,OK,Thread Group 1-12,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,110,0,0
+"Saturday May 29, 2021 10:46:40",89,Punch out,200,OK,Thread Group 1-12,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,89,0,0
+"Saturday May 29, 2021 10:46:40",753,Login,200,OK,Thread Group 1-12,text,TRUE,,653,333,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,753,0,0
+"Saturday May 29, 2021 10:46:40",118,Punch in,200,OK,Thread Group 1-12,text,TRUE,,446,379,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,118,0,0
+"Saturday May 29, 2021 10:46:40",501,Punch out,200,OK,Thread Group 1-12,text,TRUE,,447,381,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,501,0,0
+"Saturday May 29, 2021 10:46:40",905,Login,200,OK,Thread Group 1-13,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,905,0,84
+"Saturday May 29, 2021 10:46:40",92,Punch in,200,OK,Thread Group 1-13,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,92,0,0
+"Saturday May 29, 2021 10:46:40",85,Punch out,200,OK,Thread Group 1-13,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,85,0,0
+"Saturday May 29, 2021 10:46:40",349,Login,200,OK,Thread Group 1-13,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,349,0,0
+"Saturday May 29, 2021 10:46:40",91,Punch in,200,OK,Thread Group 1-13,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,91,0,0
+"Saturday May 29, 2021 10:46:40",89,Punch out,200,OK,Thread Group 1-13,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,89,0,0
+"Saturday May 29, 2021 10:46:40",1040,Login,200,OK,Thread Group 1-14,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,1040,0,74
+"Saturday May 29, 2021 10:46:40",105,Punch in,200,OK,Thread Group 1-14,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,105,0,0
+"Saturday May 29, 2021 10:46:40",87,Punch out,200,OK,Thread Group 1-14,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,87,0,0
+"Saturday May 29, 2021 10:46:40",373,Login,200,OK,Thread Group 1-14,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,373,0,0
+"Saturday May 29, 2021 10:46:40",131,Punch in,200,OK,Thread Group 1-14,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,131,0,0
+"Saturday May 29, 2021 10:46:40",89,Punch out,200,OK,Thread Group 1-14,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,89,0,0
+"Saturday May 29, 2021 10:46:40",1054,Login,200,OK,Thread Group 1-15,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,1054,0,72
+"Saturday May 29, 2021 10:46:40",96,Punch in,200,OK,Thread Group 1-15,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,96,0,0
+"Saturday May 29, 2021 10:46:40",86,Punch out,200,OK,Thread Group 1-15,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,86,0,0
+"Saturday May 29, 2021 10:46:40",812,Login,200,OK,Thread Group 1-15,text,TRUE,,653,333,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,812,0,0
+"Saturday May 29, 2021 10:46:40",96,Punch in,200,OK,Thread Group 1-15,text,TRUE,,446,379,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,96,0,0
+"Saturday May 29, 2021 10:46:40",100,Punch out,200,OK,Thread Group 1-15,text,TRUE,,447,381,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,100,0,0
+"Saturday May 29, 2021 10:46:40",679,Login,200,OK,Thread Group 1-16,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,679,0,110
+"Saturday May 29, 2021 10:46:40",89,Punch in,200,OK,Thread Group 1-16,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,89,0,0
+"Saturday May 29, 2021 10:46:40",88,Punch out,200,OK,Thread Group 1-16,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,88,0,0
+"Saturday May 29, 2021 10:46:40",328,Login,200,OK,Thread Group 1-16,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,328,0,0
+"Saturday May 29, 2021 10:46:40",101,Punch in,200,OK,Thread Group 1-16,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,101,0,0
+"Saturday May 29, 2021 10:46:40",121,Punch out,200,OK,Thread Group 1-16,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,121,0,0
+"Saturday May 29, 2021 10:46:40",1063,Login,200,OK,Thread Group 1-17,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,1063,0,74
+"Saturday May 29, 2021 10:46:40",101,Punch in,200,OK,Thread Group 1-17,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,101,0,0
+"Saturday May 29, 2021 10:46:40",77,Punch out,200,OK,Thread Group 1-17,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,77,0,0
+"Saturday May 29, 2021 10:46:40",328,Login,200,OK,Thread Group 1-17,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,328,0,0
+"Saturday May 29, 2021 10:46:40",100,Punch in,200,OK,Thread Group 1-17,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,100,0,0
+"Saturday May 29, 2021 10:46:40",73,Punch out,200,OK,Thread Group 1-17,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,73,0,0
+"Saturday May 29, 2021 10:46:40",742,Login,200,OK,Thread Group 1-18,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,742,0,69
+"Saturday May 29, 2021 10:46:40",89,Punch in,200,OK,Thread Group 1-18,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,89,0,0
+"Saturday May 29, 2021 10:46:40",80,Punch out,200,OK,Thread Group 1-18,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,80,0,0
+"Saturday May 29, 2021 10:46:40",354,Login,200,OK,Thread Group 1-18,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,354,0,0
+"Saturday May 29, 2021 10:46:40",93,Punch in,200,OK,Thread Group 1-18,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,93,0,0
+"Saturday May 29, 2021 10:46:40",86,Punch out,200,OK,Thread Group 1-18,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,86,0,0
+"Saturday May 29, 2021 10:46:40",2366,Login,200,OK,Thread Group 1-19,text,TRUE,,654,333,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,2366,0,307
+"Saturday May 29, 2021 10:46:40",143,Punch in,200,OK,Thread Group 1-19,text,TRUE,,446,379,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,143,0,0
+"Saturday May 29, 2021 10:46:40",113,Punch out,200,OK,Thread Group 1-19,text,TRUE,,447,381,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,113,0,0
+"Saturday May 29, 2021 10:46:40",873,Login,200,OK,Thread Group 1-20,text,TRUE,,654,333,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,873,0,68
+"Saturday May 29, 2021 10:46:40",98,Punch in,200,OK,Thread Group 1-20,text,TRUE,,446,379,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,98,0,0
+"Saturday May 29, 2021 10:46:40",101,Punch out,200,OK,Thread Group 1-20,text,TRUE,,447,381,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,101,0,0
+"Saturday May 29, 2021 10:46:40",451,Login,200,OK,Thread Group 1-19,text,TRUE,,653,333,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,451,0,0
+"Saturday May 29, 2021 10:46:40",113,Punch in,200,OK,Thread Group 1-19,text,TRUE,,446,379,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,113,0,0
+"Saturday May 29, 2021 10:46:40",90,Punch out,200,OK,Thread Group 1-19,text,TRUE,,447,381,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,90,0,0
+"Saturday May 29, 2021 10:46:40",436,Login,200,OK,Thread Group 1-20,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,436,0,0
+"Saturday May 29, 2021 10:46:40",121,Punch in,200,OK,Thread Group 1-20,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,121,0,0
+"Saturday May 29, 2021 10:46:40",77,Punch out,200,OK,Thread Group 1-20,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,77,0,0
+"Saturday May 29, 2021 10:46:40",1078,Login,200,OK,Thread Group 1-21,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,1078,0,73
+"Saturday May 29, 2021 10:46:40",98,Punch in,200,OK,Thread Group 1-21,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,98,0,0
+"Saturday May 29, 2021 10:46:40",78,Punch out,200,OK,Thread Group 1-21,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,78,0,0
+"Saturday May 29, 2021 10:46:40",328,Login,200,OK,Thread Group 1-21,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,328,0,0
+"Saturday May 29, 2021 10:46:40",112,Punch in,200,OK,Thread Group 1-21,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,112,0,0
+"Saturday May 29, 2021 10:46:40",623,Punch out,200,OK,Thread Group 1-21,text,TRUE,,447,381,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,623,0,0
+"Saturday May 29, 2021 10:46:40",856,Login,200,OK,Thread Group 1-22,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,856,0,354
+"Saturday May 29, 2021 10:46:40",530,Punch in,200,OK,Thread Group 1-22,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,530,0,0
+"Saturday May 29, 2021 10:46:40",122,Punch out,200,OK,Thread Group 1-22,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,122,0,0
+"Saturday May 29, 2021 10:46:40",318,Login,200,OK,Thread Group 1-22,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,318,0,0
+"Saturday May 29, 2021 10:46:40",86,Punch in,200,OK,Thread Group 1-22,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,86,0,0
+"Saturday May 29, 2021 10:46:40",87,Punch out,200,OK,Thread Group 1-22,text,TRUE,,447,381,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,87,0,0
+"Saturday May 29, 2021 10:46:40",705,Login,200,OK,Thread Group 1-23,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,705,0,63
+"Saturday May 29, 2021 10:46:40",105,Punch in,200,OK,Thread Group 1-23,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,105,0,0
+"Saturday May 29, 2021 10:46:40",85,Punch out,200,OK,Thread Group 1-23,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,85,0,0
+"Saturday May 29, 2021 10:46:40",334,Login,200,OK,Thread Group 1-23,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,334,0,0
+"Saturday May 29, 2021 10:46:40",101,Punch in,200,OK,Thread Group 1-23,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,101,0,0
+"Saturday May 29, 2021 10:46:40",103,Punch out,200,OK,Thread Group 1-23,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,103,0,0
+"Saturday May 29, 2021 10:46:40",1073,Login,200,OK,Thread Group 1-24,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,1073,0,65
+"Saturday May 29, 2021 10:46:40",86,Punch in,200,OK,Thread Group 1-24,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,86,0,0
+"Saturday May 29, 2021 10:46:40",79,Punch out,200,OK,Thread Group 1-24,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,79,0,0
+"Saturday May 29, 2021 10:46:40",389,Login,200,OK,Thread Group 1-24,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,389,0,0
+"Saturday May 29, 2021 10:46:40",98,Punch in,200,OK,Thread Group 1-24,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,98,0,0
+"Saturday May 29, 2021 10:46:40",77,Punch out,200,OK,Thread Group 1-24,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,77,0,0
+"Saturday May 29, 2021 10:46:40",2578,Login,200,OK,Thread Group 1-25,text,TRUE,,654,333,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,2578,0,518
+"Saturday May 29, 2021 10:46:40",91,Punch in,200,OK,Thread Group 1-25,text,TRUE,,446,379,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,91,0,0
+"Saturday May 29, 2021 10:46:40",669,Login,200,OK,Thread Group 1-26,text,TRUE,,654,333,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,669,0,118
+"Saturday May 29, 2021 10:46:40",80,Punch out,200,OK,Thread Group 1-25,text,TRUE,,447,381,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,80,0,0
+"Saturday May 29, 2021 10:46:40",129,Punch in,200,OK,Thread Group 1-26,text,TRUE,,446,379,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,129,0,0
+"Saturday May 29, 2021 10:46:40",84,Punch out,200,OK,Thread Group 1-26,text,TRUE,,447,381,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,84,0,0
+"Saturday May 29, 2021 10:46:40",534,Login,200,OK,Thread Group 1-25,text,TRUE,,653,333,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,534,0,0
+"Saturday May 29, 2021 10:46:40",164,Punch in,200,OK,Thread Group 1-25,text,TRUE,,446,379,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,164,0,0
+"Saturday May 29, 2021 10:46:40",567,Login,200,OK,Thread Group 1-26,text,TRUE,,653,333,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,567,0,0
+"Saturday May 29, 2021 10:46:40",103,Punch out,200,OK,Thread Group 1-25,text,TRUE,,447,381,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,103,0,0
+"Saturday May 29, 2021 10:46:40",104,Punch in,200,OK,Thread Group 1-26,text,TRUE,,446,379,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,104,0,0
+"Saturday May 29, 2021 10:46:40",79,Punch out,200,OK,Thread Group 1-26,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,79,0,0
+"Saturday May 29, 2021 10:46:40",1123,Login,200,OK,Thread Group 1-27,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,1123,0,70
+"Saturday May 29, 2021 10:46:40",97,Punch in,200,OK,Thread Group 1-27,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,97,0,0
+"Saturday May 29, 2021 10:46:40",93,Punch out,200,OK,Thread Group 1-27,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,93,0,0
+"Saturday May 29, 2021 10:46:40",334,Login,200,OK,Thread Group 1-27,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,334,0,0
+"Saturday May 29, 2021 10:46:40",107,Punch in,200,OK,Thread Group 1-27,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,107,0,0
+"Saturday May 29, 2021 10:46:40",106,Punch out,200,OK,Thread Group 1-27,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,106,0,0
+"Saturday May 29, 2021 10:46:40",2561,Login,200,OK,Thread Group 1-28,text,TRUE,,654,333,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,2561,0,473
+"Saturday May 29, 2021 10:46:40",630,Login,200,OK,Thread Group 1-29,text,TRUE,,654,333,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,630,0,62
+"Saturday May 29, 2021 10:46:40",99,Punch in,200,OK,Thread Group 1-28,text,TRUE,,446,379,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,99,0,0
+"Saturday May 29, 2021 10:46:40",118,Punch out,200,OK,Thread Group 1-28,text,TRUE,,447,381,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,118,0,0
+"Saturday May 29, 2021 10:46:40",148,Punch in,202,Accepted,Thread Group 1-29,text,FALSE,Test failed: code expected to match /200/,490,379,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,148,0,0
+"Saturday May 29, 2021 10:46:40",119,Punch out,202,Accepted,Thread Group 1-29,text,FALSE,"Test failed: code expected to equal /
+
+****** received  : 20[[[2]]]
+
+****** comparison: 20[[[0]]]
+
+/",492,381,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,119,0,0
+"Saturday May 29, 2021 10:46:40",524,Login,200,OK,Thread Group 1-28,text,TRUE,,653,333,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,524,0,0
+"Saturday May 29, 2021 10:46:40",128,Punch in,200,OK,Thread Group 1-28,text,TRUE,,446,379,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,128,0,0
+"Saturday May 29, 2021 10:46:40",533,Login,200,OK,Thread Group 1-29,text,TRUE,,653,333,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,533,0,0
+"Saturday May 29, 2021 10:46:40",104,Punch out,200,OK,Thread Group 1-28,text,TRUE,,447,381,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,104,0,0
+"Saturday May 29, 2021 10:46:40",106,Punch in,200,OK,Thread Group 1-29,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,106,0,0
+"Saturday May 29, 2021 10:46:40",81,Punch out,200,OK,Thread Group 1-29,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,81,0,0
+"Saturday May 29, 2021 10:46:40",1044,Login,200,OK,Thread Group 1-30,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,1044,0,79
+"Saturday May 29, 2021 10:46:40",120,Punch in,200,OK,Thread Group 1-30,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,120,0,0
+"Saturday May 29, 2021 10:46:40",101,Punch out,200,OK,Thread Group 1-30,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,101,0,0
+"Saturday May 29, 2021 10:46:40",337,Login,200,OK,Thread Group 1-30,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,337,0,0
+"Saturday May 29, 2021 10:46:40",91,Punch in,200,OK,Thread Group 1-30,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,91,0,0
+"Saturday May 29, 2021 10:46:40",107,Punch out,200,OK,Thread Group 1-30,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,107,0,0
+"Saturday May 29, 2021 10:46:40",2343,Login,200,OK,Thread Group 1-31,text,TRUE,,654,333,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,2343,0,569
+"Saturday May 29, 2021 10:46:40",95,Punch in,200,OK,Thread Group 1-31,text,TRUE,,446,379,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,95,0,0
+"Saturday May 29, 2021 10:46:40",87,Punch out,200,OK,Thread Group 1-31,text,TRUE,,447,381,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,87,0,0
+"Saturday May 29, 2021 10:46:40",846,Login,200,OK,Thread Group 1-32,text,TRUE,,654,333,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,846,0,62
+"Saturday May 29, 2021 10:46:40",98,Punch in,200,OK,Thread Group 1-32,text,TRUE,,446,379,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,98,0,0
+"Saturday May 29, 2021 10:46:40",471,Login,200,OK,Thread Group 1-31,text,TRUE,,653,333,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,471,0,0
+"Saturday May 29, 2021 10:46:40",77,Punch out,200,OK,Thread Group 1-32,text,TRUE,,447,381,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,77,0,0
+"Saturday May 29, 2021 10:46:40",96,Punch in,200,OK,Thread Group 1-31,text,TRUE,,446,379,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,96,0,0
+"Saturday May 29, 2021 10:46:40",119,Punch out,200,OK,Thread Group 1-31,text,TRUE,,447,381,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,119,0,0
+"Saturday May 29, 2021 10:46:40",366,Login,200,OK,Thread Group 1-32,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,366,0,0
+"Saturday May 29, 2021 10:46:40",92,Punch in,200,OK,Thread Group 1-32,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,92,0,0
+"Saturday May 29, 2021 10:46:40",83,Punch out,200,OK,Thread Group 1-32,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,83,0,0
+"Saturday May 29, 2021 10:46:40",1076,Login,200,OK,Thread Group 1-33,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,1076,0,80
+"Saturday May 29, 2021 10:46:40",168,Punch in,200,OK,Thread Group 1-33,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,168,0,0
+"Saturday May 29, 2021 10:46:40",81,Punch out,200,OK,Thread Group 1-33,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,81,0,0
+"Saturday May 29, 2021 10:46:40",326,Login,200,OK,Thread Group 1-33,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,326,0,0
+"Saturday May 29, 2021 10:46:40",88,Punch in,200,OK,Thread Group 1-33,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,88,0,0
+"Saturday May 29, 2021 10:46:40",110,Punch out,200,OK,Thread Group 1-33,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,110,0,0
+"Saturday May 29, 2021 10:46:40",1237,Login,200,OK,Thread Group 1-34,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,1237,0,79
+"Saturday May 29, 2021 10:46:40",76,Punch in,200,OK,Thread Group 1-34,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,76,0,0
+"Saturday May 29, 2021 10:46:40",76,Punch out,200,OK,Thread Group 1-34,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,76,0,0
+"Saturday May 29, 2021 10:46:40",332,Login,200,OK,Thread Group 1-34,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,332,0,0
+"Saturday May 29, 2021 10:46:40",93,Punch in,200,OK,Thread Group 1-34,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,93,0,0
+"Saturday May 29, 2021 10:46:40",111,Punch out,200,OK,Thread Group 1-34,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,111,0,0
+"Saturday May 29, 2021 10:46:40",1123,Login,200,OK,Thread Group 1-35,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,1123,0,75
+"Saturday May 29, 2021 10:46:40",121,Punch in,200,OK,Thread Group 1-35,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,121,0,0
+"Saturday May 29, 2021 10:46:40",76,Punch out,200,OK,Thread Group 1-35,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,76,0,0
+"Saturday May 29, 2021 10:46:40",337,Login,200,OK,Thread Group 1-35,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,337,0,0
+"Saturday May 29, 2021 10:46:40",107,Punch in,200,OK,Thread Group 1-35,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,107,0,0
+"Saturday May 29, 2021 10:46:40",89,Punch out,200,OK,Thread Group 1-35,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,89,0,0
+"Saturday May 29, 2021 10:46:40",1062,Login,200,OK,Thread Group 1-36,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,1062,0,81
+"Saturday May 29, 2021 10:46:40",97,Punch in,200,OK,Thread Group 1-36,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,97,0,0
+"Saturday May 29, 2021 10:46:40",84,Punch out,200,OK,Thread Group 1-36,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,84,0,0
+"Saturday May 29, 2021 10:46:40",399,Login,200,OK,Thread Group 1-36,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,399,0,0
+"Saturday May 29, 2021 10:46:40",118,Punch in,200,OK,Thread Group 1-36,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,118,0,0
+"Saturday May 29, 2021 10:46:40",88,Punch out,200,OK,Thread Group 1-36,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,88,0,0
+"Saturday May 29, 2021 10:46:40",1650,Login,200,OK,Thread Group 1-37,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,1650,0,79
+"Saturday May 29, 2021 10:46:40",71,Punch in,200,OK,Thread Group 1-37,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,71,0,0
+"Saturday May 29, 2021 10:46:40",94,Punch out,200,OK,Thread Group 1-37,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,94,0,0
+"Saturday May 29, 2021 10:46:40",355,Login,200,OK,Thread Group 1-37,text,TRUE,,653,333,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,355,0,0
+"Saturday May 29, 2021 10:46:40",90,Punch in,200,OK,Thread Group 1-37,text,TRUE,,446,379,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,90,0,0
+"Saturday May 29, 2021 10:46:40",184,Punch out,200,OK,Thread Group 1-37,text,TRUE,,447,381,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,184,0,0
+"Saturday May 29, 2021 10:46:40",622,Login,200,OK,Thread Group 1-38,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,622,0,144
+"Saturday May 29, 2021 10:46:40",135,Punch in,200,OK,Thread Group 1-38,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,135,0,0
+"Saturday May 29, 2021 10:46:40",81,Punch out,200,OK,Thread Group 1-38,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,81,0,0
+"Saturday May 29, 2021 10:46:40",338,Login,200,OK,Thread Group 1-38,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,338,0,0
+"Saturday May 29, 2021 10:46:40",87,Punch in,200,OK,Thread Group 1-38,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,87,0,0
+"Saturday May 29, 2021 10:46:40",75,Punch out,200,OK,Thread Group 1-38,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,75,0,0
+"Saturday May 29, 2021 10:46:40",1048,Login,200,OK,Thread Group 1-39,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,1048,0,71
+"Saturday May 29, 2021 10:46:40",85,Punch in,200,OK,Thread Group 1-39,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,85,0,0
+"Saturday May 29, 2021 10:46:40",78,Punch out,200,OK,Thread Group 1-39,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,78,0,0
+"Saturday May 29, 2021 10:46:40",331,Login,200,OK,Thread Group 1-39,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,330,0,0
+"Saturday May 29, 2021 10:46:40",87,Punch in,200,OK,Thread Group 1-39,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,87,0,0
+"Saturday May 29, 2021 10:46:40",83,Punch out,200,OK,Thread Group 1-39,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,83,0,0
+"Saturday May 29, 2021 10:46:40",1653,Login,200,OK,Thread Group 1-40,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,1653,0,102
+"Saturday May 29, 2021 10:46:40",77,Punch in,200,OK,Thread Group 1-40,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,77,0,0
+"Saturday May 29, 2021 10:46:40",100,Punch out,200,OK,Thread Group 1-40,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,100,0,0
+"Saturday May 29, 2021 10:46:40",350,Login,200,OK,Thread Group 1-40,text,TRUE,,653,333,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,350,0,0
+"Saturday May 29, 2021 10:46:40",115,Punch in,200,OK,Thread Group 1-40,text,TRUE,,446,379,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,115,0,0
+"Saturday May 29, 2021 10:46:40",106,Punch out,200,OK,Thread Group 1-40,text,TRUE,,447,381,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,106,0,0
+"Saturday May 29, 2021 10:46:40",569,Login,200,OK,Thread Group 1-41,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,569,0,62
+"Saturday May 29, 2021 10:46:40",70,Punch in,200,OK,Thread Group 1-41,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,70,0,0
+"Saturday May 29, 2021 10:46:40",76,Punch out,200,OK,Thread Group 1-41,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,76,0,0
+"Saturday May 29, 2021 10:46:40",336,Login,200,OK,Thread Group 1-41,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,336,0,0
+"Saturday May 29, 2021 10:46:40",94,Punch in,200,OK,Thread Group 1-41,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,94,0,0
+"Saturday May 29, 2021 10:46:40",77,Punch out,200,OK,Thread Group 1-41,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,77,0,0
+"Saturday May 29, 2021 10:46:40",1007,Login,200,OK,Thread Group 1-42,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,1007,0,63
+"Saturday May 29, 2021 10:46:40",84,Punch in,200,OK,Thread Group 1-42,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,84,0,0
+"Saturday May 29, 2021 10:46:40",95,Punch out,200,OK,Thread Group 1-42,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,95,0,0
+"Saturday May 29, 2021 10:46:40",388,Login,200,OK,Thread Group 1-42,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,388,0,0
+"Saturday May 29, 2021 10:46:40",107,Punch in,200,OK,Thread Group 1-42,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,107,0,0
+"Saturday May 29, 2021 10:46:40",89,Punch out,200,OK,Thread Group 1-42,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,89,0,0
+"Saturday May 29, 2021 10:46:40",1780,Login,200,OK,Thread Group 1-43,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,1780,0,85
+"Saturday May 29, 2021 10:46:40",88,Punch in,200,OK,Thread Group 1-43,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,88,0,0
+"Saturday May 29, 2021 10:46:40",91,Punch out,200,OK,Thread Group 1-43,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,91,0,0
+"Saturday May 29, 2021 10:46:40",362,Login,200,OK,Thread Group 1-43,text,TRUE,,653,333,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,362,0,0
+"Saturday May 29, 2021 10:46:40",104,Punch in,200,OK,Thread Group 1-43,text,TRUE,,446,379,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,104,0,0
+"Saturday May 29, 2021 10:46:40",94,Punch out,200,OK,Thread Group 1-43,text,TRUE,,447,381,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,94,0,0
+"Saturday May 29, 2021 10:46:40",695,Login,200,OK,Thread Group 1-44,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,695,0,58
+"Saturday May 29, 2021 10:46:40",72,Punch in,200,OK,Thread Group 1-44,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,72,0,0
+"Saturday May 29, 2021 10:46:40",87,Punch out,200,OK,Thread Group 1-44,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,87,0,0
+"Saturday May 29, 2021 10:46:40",334,Login,200,OK,Thread Group 1-44,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,334,0,0
+"Saturday May 29, 2021 10:46:40",119,Punch in,200,OK,Thread Group 1-44,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,119,0,0
+"Saturday May 29, 2021 10:46:40",156,Punch out,200,OK,Thread Group 1-44,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,156,0,0
+"Saturday May 29, 2021 10:46:40",1085,Login,200,OK,Thread Group 1-45,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,1085,0,70
+"Saturday May 29, 2021 10:46:40",89,Punch in,200,OK,Thread Group 1-45,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,89,0,0
+"Saturday May 29, 2021 10:46:40",114,Punch out,200,OK,Thread Group 1-45,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,114,0,0
+"Saturday May 29, 2021 10:46:40",338,Login,200,OK,Thread Group 1-45,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,338,0,0
+"Saturday May 29, 2021 10:46:40",90,Punch in,200,OK,Thread Group 1-45,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,90,0,0
+"Saturday May 29, 2021 10:46:40",80,Punch out,200,OK,Thread Group 1-45,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,80,0,0
+"Saturday May 29, 2021 10:46:40",1291,Login,200,OK,Thread Group 1-46,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,1291,0,62
+"Saturday May 29, 2021 10:46:40",84,Punch in,200,OK,Thread Group 1-46,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,84,0,0
+"Saturday May 29, 2021 10:46:40",92,Punch out,200,OK,Thread Group 1-46,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,92,0,0
+"Saturday May 29, 2021 10:46:40",383,Login,200,OK,Thread Group 1-46,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,383,0,0
+"Saturday May 29, 2021 10:46:40",81,Punch in,200,OK,Thread Group 1-46,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,81,0,0
+"Saturday May 29, 2021 10:46:40",128,Punch out,200,OK,Thread Group 1-46,text,TRUE,,447,381,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,128,0,0
+"Saturday May 29, 2021 10:46:40",476,Login,200,OK,Thread Group 1-47,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,476,0,61
+"Saturday May 29, 2021 10:46:40",92,Punch in,200,OK,Thread Group 1-47,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,92,0,0
+"Saturday May 29, 2021 10:46:40",78,Punch out,200,OK,Thread Group 1-47,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,78,0,0
+"Saturday May 29, 2021 10:46:40",327,Login,200,OK,Thread Group 1-47,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,327,0,0
+"Saturday May 29, 2021 10:46:40",98,Punch in,200,OK,Thread Group 1-47,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,98,0,0
+"Saturday May 29, 2021 10:46:40",92,Punch out,200,OK,Thread Group 1-47,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,92,0,0
+"Saturday May 29, 2021 10:46:40",1015,Login,200,OK,Thread Group 1-48,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,1015,0,61
+"Saturday May 29, 2021 10:46:40",110,Punch in,200,OK,Thread Group 1-48,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,110,0,0
+"Saturday May 29, 2021 10:46:40",113,Punch out,200,OK,Thread Group 1-48,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,113,0,0
+"Saturday May 29, 2021 10:46:40",375,Login,200,OK,Thread Group 1-48,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,375,0,0
+"Saturday May 29, 2021 10:46:40",89,Punch in,200,OK,Thread Group 1-48,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,89,0,0
+"Saturday May 29, 2021 10:46:40",105,Punch out,200,OK,Thread Group 1-48,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,105,0,0
+"Saturday May 29, 2021 10:46:40",1419,Login,200,OK,Thread Group 1-49,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,1419,0,59
+"Saturday May 29, 2021 10:46:40",101,Punch in,200,OK,Thread Group 1-49,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,101,0,0
+"Saturday May 29, 2021 10:46:40",90,Punch out,200,OK,Thread Group 1-49,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,90,0,0
+"Saturday May 29, 2021 10:46:40",352,Login,200,OK,Thread Group 1-49,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,352,0,0
+"Saturday May 29, 2021 10:46:40",85,Punch in,200,OK,Thread Group 1-49,text,TRUE,,446,379,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,85,0,0
+"Saturday May 29, 2021 10:46:40",79,Punch out,200,OK,Thread Group 1-49,text,TRUE,,447,381,2,2,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,79,0,0
+"Saturday May 29, 2021 10:46:40",474,Login,200,OK,Thread Group 1-50,text,TRUE,,654,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,474,0,63
+"Saturday May 29, 2021 10:46:40",92,Punch in,200,OK,Thread Group 1-50,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,92,0,0
+"Saturday May 29, 2021 10:46:40",76,Punch out,200,OK,Thread Group 1-50,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,76,0,0
+"Saturday May 29, 2021 10:46:40",351,Login,200,OK,Thread Group 1-50,text,TRUE,,653,333,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/login,351,0,0
+"Saturday May 29, 2021 10:46:40",107,Punch in,200,OK,Thread Group 1-50,text,TRUE,,446,379,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-in,107,0,0
+"Saturday May 29, 2021 10:46:40",122,Punch out,200,OK,Thread Group 1-50,text,TRUE,,447,381,1,1,http://qa.cilsy.id/symfony/web/index.php/api/v1/employee/35/punch-out,122,0,0
