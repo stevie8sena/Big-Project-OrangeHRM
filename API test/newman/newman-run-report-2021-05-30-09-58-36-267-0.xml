@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="OrangeHRM" tests="39" time="18.595">
+  <testsuite name="Admin / 01.Get Users" id="a65c7617-db9b-4e8d-9d55-abdc09d9f950" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="0" errors="0" time="0.906">
+    <testcase name="Status code is 200" time="0.906" classname="OrangeHrm"/>
+  </testsuite>
+  <testsuite name="Admin / 02.User Login" id="75518a93-80fd-4c58-98ae-80837c0f9e08" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="0" errors="0" time="1.230">
+    <testcase name="Status code is 200" time="1.230" classname="OrangeHrm"/>
+  </testsuite>
+  <testsuite name="Admin / 03.Get Organization" id="cd8c0d02-a655-439e-96a3-570b90048c0f" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="0" errors="0" time="0.124">
+    <testcase name="Status code is 200" time="0.124" classname="OrangeHrm"/>
+  </testsuite>
+  <testsuite name="Attendance / 01.Punch in" id="e3389e8a-e4a1-4b99-b0c6-41fa936e3aa0" timestamp="2021-05-30T09:57:42.689Z" tests="2" failures="0" errors="0" time="0.100">
+    <testcase name="Status code is 200" time="0.100" classname="OrangeHrm"/>
+    <testcase name="Message success" time="0.100" classname="OrangeHrm"/>
+  </testsuite>
+  <testsuite name="Attendance / 02.Punch Out" id="e761ff5a-3d94-422e-8b18-cb4121cbf42b" timestamp="2021-05-30T09:57:42.689Z" tests="2" failures="0" errors="0" time="0.077">
+    <testcase name="Status code is 200" time="0.077" classname="OrangeHrm"/>
+    <testcase name="Message success" time="0.077" classname="OrangeHrm"/>
+  </testsuite>
+  <testsuite name="Employee / 01.Save Employee" id="3fa8881d-93ee-4097-ad1d-9be8e479bd2b" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="1" errors="0" time="0.096">
+    <testcase name="Status code is 200" time="0.096" classname="OrangeHrm">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 400">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c9d5f125-7d4f-4e67-9012-4376d31572ed.]]>
+        <![CDATA[Collection name: OrangeHRM.]]>
+        <![CDATA[Request name: Employee / 01.Save Employee.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 400
+   at Object.eval sandbox-script.js:1:6).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Employee / 02.Employee Detail" id="e121b1aa-0f21-4700-8fc6-40e23cff4a5f" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="0" errors="0" time="0.757">
+    <testcase name="Status code is 200" time="0.757" classname="OrangeHrm"/>
+  </testsuite>
+  <testsuite name="Employee / 03.Update Employee Detail" id="33dc7cf1-5385-482b-97c6-5fa702900f05" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="0" errors="0" time="1.000">
+    <testcase name="Status code is 200" time="1.000" classname="OrangeHrm"/>
+  </testsuite>
+  <testsuite name="Employee / 04.Terminate Employment" id="732ff0be-9f5d-440b-a25b-3bf402ed8514" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="1" errors="0" time="0.093">
+    <testcase name="Status code is 200" time="0.093" classname="OrangeHrm">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 400">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c9d5f125-7d4f-4e67-9012-4376d31572ed.]]>
+        <![CDATA[Collection name: OrangeHRM.]]>
+        <![CDATA[Request name: Employee / 04.Terminate Employment.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 400
+   at Object.eval sandbox-script.js:1:9).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Employee / 05.Employee Search" id="67e00554-389a-430a-9c70-bd55f9a1ac71" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="0" errors="0" time="6.735">
+    <testcase name="Status code is 200" time="6.735" classname="OrangeHrm"/>
+  </testsuite>
+  <testsuite name="Employee / 06.Employee Contact Detail" id="a6b46250-44a9-4cda-a1ce-52edeea17268" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="0" errors="0" time="0.121">
+    <testcase name="Status code is 200" time="0.121" classname="OrangeHrm"/>
+  </testsuite>
+  <testsuite name="Employee / 07.Save Employee Contact Detail" id="4b56d789-8608-49a0-94d8-1450d25a1f54" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="0" errors="0" time="0.895">
+    <testcase name="Status code is 200" time="0.895" classname="OrangeHrm"/>
+  </testsuite>
+  <testsuite name="Employee / 08.Update Employee Contact Detail" id="707060db-beb1-4667-885e-317ef9364cd9" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="0" errors="0" time="0.759">
+    <testcase name="Status code is 200" time="0.759" classname="OrangeHrm"/>
+  </testsuite>
+  <testsuite name="Employee / 09.Employee Dependents" id="cb3d9569-6215-4db9-bca6-270af59b1e01" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="0" errors="0" time="0.100">
+    <testcase name="Status code is 200" time="0.100" classname="OrangeHrm"/>
+  </testsuite>
+  <testsuite name="Employee / 10.Delete Employee Dependents" id="f3bb3167-5ff0-4a73-838f-cf2c4c58a252" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="0" errors="0" time="0.092">
+    <testcase name="Status code is 200" time="0.092" classname="OrangeHrm"/>
+  </testsuite>
+  <testsuite name="Employee / 11.Update Employee Dependents" id="be5c9ffa-6103-438b-8855-e3b506c7461f" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="1" errors="0" time="0.085">
+    <testcase name="Status code is 200" time="0.085" classname="OrangeHrm">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 400">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c9d5f125-7d4f-4e67-9012-4376d31572ed.]]>
+        <![CDATA[Collection name: OrangeHRM.]]>
+        <![CDATA[Request name: Employee / 11.Update Employee Dependents.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 400
+   at Object.eval sandbox-script.js:1:16).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Employee / 12.Save Employee Dependent" id="9a4d2ade-4654-4ca0-9926-e59a053a296e" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="0" errors="0" time="0.781">
+    <testcase name="Status code is 200" time="0.781" classname="OrangeHrm"/>
+  </testsuite>
+  <testsuite name="Employee / 13.Employee Job Detail" id="6c40c299-7152-466e-a7cb-139d5b7eb50a" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="0" errors="0" time="0.083">
+    <testcase name="Status code is 200" time="0.083" classname="OrangeHrm"/>
+  </testsuite>
+  <testsuite name="Employee / 14.Save Employee Job Detail" id="86afc3b0-cf0b-4e19-af41-94dd117c943d" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="0" errors="0" time="0.681">
+    <testcase name="Status code is 200" time="0.681" classname="OrangeHrm"/>
+  </testsuite>
+  <testsuite name="Employee / 15.Update Employee Job Detail" id="00c55d3a-6ecc-4ea7-8a69-bd3eb6f4f12b" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="0" errors="0" time="0.716">
+    <testcase name="Status code is 200" time="0.716" classname="OrangeHrm"/>
+  </testsuite>
+  <testsuite name="Employee / 16.Supervisor Details" id="481512b9-e1b0-4967-984d-b9b426c3e7f2" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="1" errors="0" time="0.084">
+    <testcase name="Status code is 200" time="0.084" classname="OrangeHrm">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 404">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c9d5f125-7d4f-4e67-9012-4376d31572ed.]]>
+        <![CDATA[Collection name: OrangeHRM.]]>
+        <![CDATA[Request name: Employee / 16.Supervisor Details.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 404.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 404
+   at Object.eval sandbox-script.js:1:21).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Employee / 17.Save Supervisor Details" id="f7c68308-4ac9-4254-be00-9ec6150f3c25" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="1" errors="0" time="0.109">
+    <testcase name="Status code is 200" time="0.109" classname="OrangeHrm">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 202">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c9d5f125-7d4f-4e67-9012-4376d31572ed.]]>
+        <![CDATA[Collection name: OrangeHRM.]]>
+        <![CDATA[Request name: Employee / 17.Save Supervisor Details.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 202.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 202
+   at Object.eval sandbox-script.js:1:22).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Employee / 18.Delete Supervisor Details" id="b7abcd04-6277-4548-b4b5-54184b901288" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="1" errors="0" time="0.098">
+    <testcase name="Status code is 200" time="0.098" classname="OrangeHrm">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 404">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c9d5f125-7d4f-4e67-9012-4376d31572ed.]]>
+        <![CDATA[Collection name: OrangeHRM.]]>
+        <![CDATA[Request name: Employee / 18.Delete Supervisor Details.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 404.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 404
+   at Object.eval sandbox-script.js:1:23).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Employee / 19.Update Supervisor Details" id="e579be81-8a56-41c9-a13b-e9bfe398e817" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="1" errors="0" time="0.070">
+    <testcase name="Status code is 200" time="0.070" classname="OrangeHrm">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 202">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c9d5f125-7d4f-4e67-9012-4376d31572ed.]]>
+        <![CDATA[Collection name: OrangeHRM.]]>
+        <![CDATA[Request name: Employee / 19.Update Supervisor Details.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 202.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 202
+   at Object.eval sandbox-script.js:1:24).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Employee / 20.Get Employee Events" id="34ca2f67-bb25-4051-9d0c-7871b8ba8652" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="1" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: socket hang up
+    at connResetException (node:internal/errors:642:14)
+    at Socket.socketOnEnd (node:_http_client:486:23)
+    at Socket.emit (node:events:390:22)
+    at endReadableNT (node:internal/streams/readable:1307:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+
+---
+]]></system-err>
+    <testcase name="Status code is 200" time="0.000" classname="OrangeHrm">
+      <failure type="AssertionFailure" message="expected { Object (id, _details, ...) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c9d5f125-7d4f-4e67-9012-4376d31572ed.]]>
+        <![CDATA[Collection name: OrangeHRM.]]>
+        <![CDATA[Request name: Employee / 20.Get Employee Events.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected { Object (id, _details, ...) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, _details, ...) } to have property 'code'
+   at Object.eval sandbox-script.js:1:25).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Employee / 21.Employee Work Experience" id="65246e94-be83-40a0-bdbf-4f7708d8a89b" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="1" errors="0" time="0.365">
+    <testcase name="Status code is 200" time="0.365" classname="OrangeHrm">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 404">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c9d5f125-7d4f-4e67-9012-4376d31572ed.]]>
+        <![CDATA[Collection name: OrangeHRM.]]>
+        <![CDATA[Request name: Employee / 21.Employee Work Experience.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 404.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 404
+   at Object.eval sandbox-script.js:1:26).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Employee / 22.Save Employee Work Experience" id="c34ad8be-746d-4ed1-8d3c-f0fffe28386d" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="0" errors="0" time="0.087">
+    <testcase name="Status code is 200" time="0.087" classname="OrangeHrm"/>
+  </testsuite>
+  <testsuite name="Employee / 23.Update Employee Work Experience" id="81d75105-122a-43fd-a708-401450bd7e7b" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="0" errors="0" time="0.081">
+    <testcase name="Status code is 200" time="0.081" classname="OrangeHrm"/>
+  </testsuite>
+  <testsuite name="Employee / 24.Delete Employee Work Experience" id="bf00768e-5600-4ff9-a0d3-60f23c75a05a" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="0" errors="0" time="0.079">
+    <testcase name="Status code is 200" time="0.079" classname="OrangeHrm"/>
+  </testsuite>
+  <testsuite name="Employee / 25.Employee Education" id="ec62d2fd-4e98-4931-a5ac-9b94b245c577" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="1" errors="0" time="0.084">
+    <testcase name="Status code is 200" time="0.084" classname="OrangeHrm">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 404">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c9d5f125-7d4f-4e67-9012-4376d31572ed.]]>
+        <![CDATA[Collection name: OrangeHRM.]]>
+        <![CDATA[Request name: Employee / 25.Employee Education.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 404.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 404
+   at Object.eval sandbox-script.js:1:30).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Employee / 26.Save Employee Education" id="33f8a9bd-9665-467c-933c-e17a4bbafc8f" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="1" errors="0" time="0.091">
+    <testcase name="Status code is 200" time="0.091" classname="OrangeHrm">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 400">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c9d5f125-7d4f-4e67-9012-4376d31572ed.]]>
+        <![CDATA[Collection name: OrangeHRM.]]>
+        <![CDATA[Request name: Employee / 26.Save Employee Education.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 400
+   at Object.eval sandbox-script.js:1:31).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Employee / 27.Delete Employee Education" id="063d6812-d11e-4ece-8ab6-8b7084329578" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="1" errors="0" time="0.128">
+    <testcase name="Status code is 200" time="0.128" classname="OrangeHrm">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 400">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c9d5f125-7d4f-4e67-9012-4376d31572ed.]]>
+        <![CDATA[Collection name: OrangeHRM.]]>
+        <![CDATA[Request name: Employee / 27.Delete Employee Education.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 400
+   at Object.eval sandbox-script.js:1:32).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Employee / 28.Employee Custom Field" id="d5b29dd2-ac58-478e-a353-8600824a54ea" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="0" errors="0" time="0.742">
+    <testcase name="Status code is 200" time="0.742" classname="OrangeHrm"/>
+  </testsuite>
+  <testsuite name="Employee / 29.Save Employee Custom Field" id="487b1f57-7cc8-4e1e-a248-f7324728c877" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="1" errors="0" time="0.080">
+    <testcase name="Status code is 200" time="0.080" classname="OrangeHrm">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 404">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c9d5f125-7d4f-4e67-9012-4376d31572ed.]]>
+        <![CDATA[Collection name: OrangeHRM.]]>
+        <![CDATA[Request name: Employee / 29.Save Employee Custom Field.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 404.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 404
+   at Object.eval sandbox-script.js:1:34).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Employee / 30.Update Employee Custom Field" id="5a2214b8-32b2-41a4-980e-8807bd644a69" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="1" errors="0" time="0.075">
+    <testcase name="Status code is 200" time="0.075" classname="OrangeHrm">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 404">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c9d5f125-7d4f-4e67-9012-4376d31572ed.]]>
+        <![CDATA[Collection name: OrangeHRM.]]>
+        <![CDATA[Request name: Employee / 30.Update Employee Custom Field.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 404.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 404
+   at Object.eval sandbox-script.js:1:35).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Employee / 31.Delete Employee Custom Field" id="752252f1-2fd8-40fb-afb6-eab1a88f3892" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="1" errors="0" time="0.073">
+    <testcase name="Status code is 200" time="0.073" classname="OrangeHrm">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 404">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c9d5f125-7d4f-4e67-9012-4376d31572ed.]]>
+        <![CDATA[Collection name: OrangeHRM.]]>
+        <![CDATA[Request name: Employee / 31.Delete Employee Custom Field.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 404.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 404
+   at Object.eval sandbox-script.js:1:36).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Employee / 32.Custom Field" id="3c305e57-2eb5-4e82-8bbd-3037f53af13c" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="0" errors="0" time="0.082">
+    <testcase name="Status code is 200" time="0.082" classname="OrangeHrm"/>
+  </testsuite>
+  <testsuite name="Employee / 33.Update Employee Education" id="d8765283-7fb9-408b-86fa-8ecad3984f63" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="1" errors="0" time="0.090">
+    <testcase name="Status code is 200" time="0.090" classname="OrangeHrm">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 400">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c9d5f125-7d4f-4e67-9012-4376d31572ed.]]>
+        <![CDATA[Collection name: OrangeHRM.]]>
+        <![CDATA[Request name: Employee / 33.Update Employee Education.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 400
+   at Object.eval sandbox-script.js:1:38).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Employee / 34.Employee Picture" id="3dfadcd1-f745-4e4b-aea0-e63d2b8b9f3d" timestamp="2021-05-30T09:57:42.689Z" tests="1" failures="1" errors="0" time="0.746">
+    <testcase name="Status code is 200" time="0.746" classname="OrangeHrm">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 202">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c9d5f125-7d4f-4e67-9012-4376d31572ed.]]>
+        <![CDATA[Collection name: OrangeHRM.]]>
+        <![CDATA[Request name: Employee / 34.Employee Picture.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 202.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 202
+   at Object.eval sandbox-script.js:1:39).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+</testsuites>

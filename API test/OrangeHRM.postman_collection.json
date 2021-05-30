@@ -6,72 +6,6 @@
 	},
 	"item": [
 		{
-			"name": "Token",
-			"item": [
-				{
-					"name": "Token",
-					"request": {
-						"auth": {
-							"type": "noauth"
-						},
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "formdata",
-							"formdata": [
-								{
-									"key": "client_id",
-									"value": "0208",
-									"type": "text"
-								},
-								{
-									"key": "client_secret",
-									"value": "sena",
-									"type": "text"
-								},
-								{
-									"key": "grant_type",
-									"value": "client_credentials",
-									"type": "text"
-								}
-							]
-						},
-						"url": {
-							"raw": "http://qa.cilsy.id/symfony/web/index.php/oauth/issueToken?client_id=0208&clien_secret=sena&grant_type=client_credentials",
-							"protocol": "http",
-							"host": [
-								"qa",
-								"cilsy",
-								"id"
-							],
-							"path": [
-								"symfony",
-								"web",
-								"index.php",
-								"oauth",
-								"issueToken"
-							],
-							"query": [
-								{
-									"key": "client_id",
-									"value": "0208"
-								},
-								{
-									"key": "clien_secret",
-									"value": "sena"
-								},
-								{
-									"key": "grant_type",
-									"value": "client_credentials"
-								}
-							]
-						}
-					},
-					"response": []
-				}
-			]
-		},
-		{
 			"name": "Admin",
 			"item": [
 				{
@@ -222,6 +156,11 @@
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {\r",
 									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Message success\", function () {\r",
+									"    var jsonData = pm.response.json();\r",
+									"    pm.expect(jsonData.success).to.eql(\"Successfully Punched In\");\r",
 									"});"
 								],
 								"type": "text/javascript"
@@ -236,7 +175,7 @@
 							"urlencoded": [
 								{
 									"key": "id",
-									"value": "1",
+									"value": "35",
 									"type": "text"
 								},
 								{
@@ -251,7 +190,7 @@
 								},
 								{
 									"key": "datetime",
-									"value": "2021-05-23 11:44",
+									"value": "2022-05-23 07:40",
 									"type": "text"
 								}
 							]
@@ -271,7 +210,7 @@
 							"variable": [
 								{
 									"key": "id",
-									"value": "1"
+									"value": "35"
 								}
 							]
 						}
@@ -287,6 +226,11 @@
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {\r",
 									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Message success\", function () {\r",
+									"    var jsonData = pm.response.json();\r",
+									"    pm.expect(jsonData.success).to.eql(\"Successfully Punched Out\");\r",
 									"});"
 								],
 								"type": "text/javascript"
@@ -301,7 +245,7 @@
 							"urlencoded": [
 								{
 									"key": "id",
-									"value": "1",
+									"value": "35",
 									"type": "text"
 								},
 								{
@@ -316,7 +260,7 @@
 								},
 								{
 									"key": "datetime",
-									"value": "2021-05-23 11:44",
+									"value": "2022-05-23 17:05",
 									"type": "text"
 								}
 							]
@@ -336,7 +280,7 @@
 							"variable": [
 								{
 									"key": "id",
-									"value": "1"
+									"value": "35"
 								}
 							]
 						}
@@ -2568,32 +2512,32 @@
 								},
 								{
 									"key": "institute",
-									"value": "",
+									"value": "UGM",
 									"type": "text"
 								},
 								{
 									"key": "startDate",
-									"value": "",
+									"value": "2005-12-30",
 									"type": "text"
 								},
 								{
 									"key": "endDateDate",
-									"value": "",
+									"value": "2009-12-30",
 									"type": "text"
 								},
 								{
 									"key": "specialization",
-									"value": "",
+									"value": "QA",
 									"type": "text"
 								},
 								{
 									"key": "year",
-									"value": "",
+									"value": "2009",
 									"type": "text"
 								},
 								{
 									"key": "gpa",
-									"value": "",
+									"value": "3.5",
 									"type": "text"
 								}
 							]
@@ -2682,7 +2626,7 @@
 		"bearer": [
 			{
 				"key": "token",
-				"value": "c1d65ab564ae399cd65521132de9084079e22b2c",
+				"value": "4bc0c48a38f8aa077c474e7600a21c59cf163260",
 				"type": "string"
 			}
 		]

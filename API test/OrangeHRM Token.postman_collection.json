@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "6a004a24-d0ee-4c92-9df7-8432bd0c747e",
+		"name": "OrangeHRM Token",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Token",
+			"item": [
+				{
+					"name": "Token",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "client_id",
+									"value": "0208",
+									"type": "text"
+								},
+								{
+									"key": "client_secret",
+									"value": "sena",
+									"type": "text"
+								},
+								{
+									"key": "grant_type",
+									"value": "client_credentials",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://qa.cilsy.id/symfony/web/index.php/oauth/issueToken?client_id=0208&clien_secret=sena&grant_type=client_credentials",
+							"protocol": "http",
+							"host": [
+								"qa",
+								"cilsy",
+								"id"
+							],
+							"path": [
+								"symfony",
+								"web",
+								"index.php",
+								"oauth",
+								"issueToken"
+							],
+							"query": [
+								{
+									"key": "client_id",
+									"value": "0208"
+								},
+								{
+									"key": "clien_secret",
+									"value": "sena"
+								},
+								{
+									"key": "grant_type",
+									"value": "client_credentials"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
